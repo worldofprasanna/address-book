@@ -18,12 +18,12 @@ This is the practice shell script exercise from [shellscript.sh](https://www.she
 
 ## Install
 
-```
-```
+It requires bash for executing the program
 
 ## Usage
 
 ```
+./address_book.sh
 ```
 
 ## Maintainers
