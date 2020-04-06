@@ -3,6 +3,7 @@
 # Source the libs
 
 . ./add.sh
+. ./search.sh
 
 echo "Welcome to Address book !!!"
 echo "Please select the operation you want to perform [s - search | a - add | d - delete | u - update]"
@@ -12,7 +13,7 @@ while [ -n "$opr" ]
 do
   case $opr in
     's')
-      echo "You have chosen to search the address book"
+      search
     ;;
     'a')
       add
