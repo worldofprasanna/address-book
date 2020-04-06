@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/local/bin/bash
 
 search() {
   echo -n "Please enter the any detail of the person to be searched: "

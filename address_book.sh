@@ -1,10 +1,11 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 # Source the libs
 
 . ./add.sh
 . ./search.sh
 . ./delete.sh
+. ./update.sh
 
 echo "Welcome to Address book !!!"
 echo "Please select the operation you want to perform [s - search | a - add | d - delete | u - update]"
@@ -23,7 +24,7 @@ do
       delete
     ;;
     'u')
-      echo "You have chosen to update data in the address book"
+      update
     ;;
     *)
       echo "Invalid operation"
