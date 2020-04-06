@@ -4,6 +4,7 @@
 
 . ./add.sh
 . ./search.sh
+. ./delete.sh
 
 echo "Welcome to Address book !!!"
 echo "Please select the operation you want to perform [s - search | a - add | d - delete | u - update]"
@@ -19,7 +20,7 @@ do
       add
     ;;
     'd')
-      echo "You have chosen to delete data from address book"
+      delete
     ;;
     'u')
       echo "You have chosen to update data in the address book"
