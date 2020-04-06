@@ -8,7 +8,6 @@ search() {
   if [ "$?" -eq 0 ]
   then
     echo "Details of the person"
-    # echo $result | awk 'name: {print $1}, surname: {print $2}, phone: {print $3}, email: {print $4}'
     echo $result | awk -F: '{print "name: " $1 ", surname: " $2 ", phone: " $3 ", email: " $4}'
     return 0
   else
