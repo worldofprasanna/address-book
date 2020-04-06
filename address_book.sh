@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Source the libs
+
+. ./add.sh
+
 echo "Welcome to Address book !!!"
 echo "Please select the operation you want to perform [s - search | a - add | d - delete | u - update]"
 
@@ -11,7 +15,7 @@ do
       echo "You have chosen to search the address book"
     ;;
     'a')
-      echo "You have chosen to add data to address book"
+      add
     ;;
     'd')
       echo "You have chosen to delete data from address book"
