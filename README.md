@@ -18,7 +18,11 @@ This is the practice shell script exercise from [shellscript.sh](https://www.she
 
 ## Install
 
-It requires bash for executing the program
+It requires bash (> 5.0.0) for executing the program. So make sure you have latest bash installed. You can use,
+```
+brew install bash
+bash --version
+```
 
 ## Usage
 
